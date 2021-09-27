@@ -1,21 +1,21 @@
 body {
     background-color: darkcyan;
-    color: darkorange;
 }
 
-.grid {
+.quiz-area {
     width: 600px;
-    height: 800px;
+    height: 500px;
     margin: 0 auto;
-    background-color: darkolivegreen;
+    background-color: rgba(196, 92, 8, 0.801);
     padding: 10px 50px 50px 50px;
-    border-radius: 2px solid slategrey;
-    box-shadow: 10px 15px 5px darkorange;
+    border: 2px solid slategrey;
+    border-radius: 50px;
+    box-shadow: 10px 15px 5px rgb(194, 57, 3);
 }
 
-.grid h1 {
+.quiz-area h1 {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkslateblue;
+    background-color: rgb(8, 8, 85);
     font-size: 50px;
     text-align: center;
     color: darkorange;
@@ -23,10 +23,10 @@ body {
     border-radius: 50px;
 }
 
-.grid #question {
+.quiz-area #question {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: darkorange;
+    color: rgb(9, 16, 82);
 }
 
 .buttons {
@@ -34,7 +34,7 @@ body {
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: darkolivegreen;
+    background-color: rgb(4, 83, 187);
     width: 250px;
     font-size: 20px;
     color: darkorange;
@@ -44,9 +44,18 @@ body {
     padding: 10px 10px;
 }
 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
 #progress {
     font-size: 18px;
-    color: darkorange;
+    color: rgb(0, 37, 117);
 }
 
 #gap1 {
